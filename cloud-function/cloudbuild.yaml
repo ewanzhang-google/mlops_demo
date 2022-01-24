@@ -1,0 +1,28 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud  pubsub topics create ${_TOPIC} || true'] # ignore error on failure
+  
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: 'bash'
+  args: ['-c', 'gcloud scheduler jobs create pubsub ${_SCHEDULER_NAME} --schedule="${_CRON}" --topic="${_TOPIC}" --message-body="{}" || gcloud scheduler jobs update pubsub ${_SCHEDULER_NAME} --schedule="${_CRON}"']
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - ${REPO_NAME}-runner
+  - --region=europe-west2
+  - --source=./cloud-function
+  - --entry-point=trigger
+  - --trigger-topic=${_TOPIC}
+  - --runtime=python38
+  - --timeout=60s
+  
+timeout: 1800s
+
+substitutions:
+  _TOPIC: "pipeline-trigger-topic"
+  _CRON: "0 */5 * * *"
+  _SCHEDULER_NAME: "${REPO_NAME}-scheduler"

@@ -1,2 +1,2 @@
-# vertex-mlops-airlines
-example using synthetic mocked airlines data
+# MLOps-Airlines-Dataset
+Example using synthetic dataset

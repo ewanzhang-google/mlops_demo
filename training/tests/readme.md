@@ -1,0 +1,1 @@
+pytest --cov=training --cov-config=training/tests/coverage.conf --cov-report=term-missing --cov-fail-under=10 -s
