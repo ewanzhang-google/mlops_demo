@@ -104,6 +104,7 @@ def model_training_pipeline(
     svm_op.set_memory_limit('14Gi')
     #svm_op.add_node_selector_constraint('cloud.google.com/gke-accelerator', 'nvidia-tesla-k80')
     #svm_op.set_gpu_limit(1)
+    #svm_op.set_display_name("123")
     
     
     
