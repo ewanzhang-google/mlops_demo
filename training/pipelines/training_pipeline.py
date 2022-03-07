@@ -45,7 +45,7 @@ def run_pipeline(pipeline_name, run_name, project_id, pl_root, pl_path, location
         project = project_id,
         location = location,
         parameter_values = pipeline_params)
-
+    print("--- CCC -- running as :",service_account)
     status = pl.run(sync=True, service_account=service_account)
     
     if(pl.has_failed):
