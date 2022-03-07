@@ -2,8 +2,6 @@
 Example using synthetic dataset
 
 
-
-
 ### Payload example
 {
   "instances": [
