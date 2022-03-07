@@ -32,7 +32,7 @@ substitutions:
   _PIPELINE_RUN_NAME: build-REPO_NAME-SHORT_SHA
   _PIPELINE_ROOT: "gs://propensity_model/cloud_build_pipeline/REPO_NAME/SHORT_SHA"
   _PIPELINE_PATH: "gs://propensity_model/cloud_build_pipeline/REPO_NAME/SHORT_SHA/training_pipeline.json"
-  _PIPELINE_PARAMS: "{\"project_id\":\"PROJECT_ID\",\"bq_uri\":\"PROJECT.DATASET.TABLE\",\"label"\:\"label\",\"assets_prefix\":\"prop-SHORT_SHA\",\"location\":\"europe-west4\"}"
+  _PIPELINE_PARAMS: "{\"project_id\":\"PROJECT_ID\",\"bq_uri\":\"PROJECT.DATASET.TABLE\",\"label\":\"label\",\"assets_prefix\":\"prop-SHORT_SHA\",\"location\":\"europe-west4\"}"
   
   
   
