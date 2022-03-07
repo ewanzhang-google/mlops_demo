@@ -25,7 +25,6 @@ steps:
 
 timeout: 1800s
 
-
 substitutions:
   _SERVICE_ACCOUNT: "vertex-pipelines-sa@${PROJECT_ID}.iam.gserviceaccount.com"
   _LOCATION: europe-west4
