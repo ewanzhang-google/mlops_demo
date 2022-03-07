@@ -61,7 +61,7 @@ from kfp.dsl.types import GCPProjectID
 def model_training_pipeline(
     project_id: str,
     bq_uri: str,
-    label: str="label",
+    label: str,
     assets_prefix: str,
     location: str
 ):
