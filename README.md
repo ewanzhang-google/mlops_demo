@@ -1,4 +1,4 @@
-# MLOps-Airlines-Dataset
+# MLOps-demo
 Example using synthetic dataset
 
 
