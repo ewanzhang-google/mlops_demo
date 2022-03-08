@@ -17,7 +17,7 @@ def gen_stats_comp(
     stats_artifact: Output[Artifact],
     html_artifact: Output[HTML]
 ) -> None:
-    
+    """
     import tensorflow_data_validation as tfdv
     from apache_beam.options.pipeline_options import PipelineOptions
 
@@ -40,4 +40,6 @@ def gen_stats_comp(
     print(stats_artifact.path)
     with open(html_artifact.path, 'w') as f:
         f.write(html_content)
+    """
+    return
   
