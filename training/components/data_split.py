@@ -28,7 +28,7 @@ def data_split_comp(
     
     import numpy as np 
     import dask.dataframe as dd
-    df = dd.read_csv(dataset.uri+"/data_*.csv", sample=1000)
+    df = dd.read_parquet(dataset.uri+"/data_*.parquet")
     df = df.compute()
     
     np.random.seed(seed)
