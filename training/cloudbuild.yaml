@@ -32,5 +32,5 @@ substitutions:
   _PIPELINE_RUN_NAME: build-${SHORT_SHA}
   _PIPELINE_ROOT: "gs://${PROJECT_ID}/cloud_build_pipeline/${REPO_NAME}/${SHORT_SHA}"
   _PIPELINE_PATH: "gs://${PROJECT_ID}/cloud_build_pipeline/${REPO_NAME}/${SHORT_SHA}/training_pipeline.json"
-  _PIPELINE_PARAMS: '{"project_id":"${PROJECT_ID}","bq_uri":"uki-mlops-dev-demo.propensity_airlines.propensity_data","label":"label","assets_prefix":"prop-${SHORT_SHA}","location\":"europe-west4"}'
-
+  #_PIPELINE_PARAMS: '{"project_id":"${PROJECT_ID}","bq_uri":"uki-mlops-dev-demo.propensity_airlines.propensity_data","label":"label","assets_prefix":"prop-${SHORT_SHA}","location\":"europe-west4"}'
+  _PIPELINE_PARAMS: "{\"project_id\":\"${PROJECT_ID}\",\"bq_uri\":\"uki-mlops-dev-demo.propensity_airlines.propensity_data\",\"label\":\"label\",\"assets_prefix\":\"prop-${SHORT_SHA}\",\"location\":\"europe-west4\"}"
