@@ -23,7 +23,9 @@ def bq_export_comp(
     logging.info("THE PATH: "+exported_dataset.path)
     logging.info("THE URI: "+exported_dataset.uri)
     
-    destination_uris = ["{}/{}".format(exported_dataset.uri, "data_*.csv")]
+    destination_uris = ["{}/{}".format(exported_dataset.uri, "data_*.parquet")]
+    
+    job_config = bigquery.job.ExtractJobConfig(destination_format=bigquery.job.DestinationFormat.PARQUET)
     
     client = bigquery.Client(project=bq_project_id)
     print("--here--")
@@ -33,6 +35,7 @@ def bq_export_comp(
         destination_uris,
         # Location must match that of the source table.
         # location="europe-west4",
+        job_config=job_config,
     )  # API request
     print(extract_job)
     print(extract_job.result())  # Waits for job to complete.
