@@ -8,8 +8,7 @@ steps:
 #  args:
 #    - '-c'
 #    - |
-#      ls -la \
-#      && pip install poetry \
+#      pip install poetry \
 #      && poetry install \
 #      && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
 #      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini
@@ -18,8 +17,14 @@ steps:
 # compile pipeline
 - name: 'python:3.8-slim'
   entrypoint: 'bash'
-  args: ['pip install poetry && poetry install && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}']
-#  waitFor: ['Tests']
+  args:
+      - '-c'
+      - |
+        pip install poetry \
+        && poetry install \
+        && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}
+  #args: ['pip install poetry | poetry install | poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}']
+  #waitFor: ['Tests']
   id: 'CompilePipeline'
 
 # run pipeline
