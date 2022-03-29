@@ -12,7 +12,7 @@ steps:
       && pip install poetry \
       && poetry install \
       && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
-      && poetry run pytest -m "inte" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=10 -s -v -c custom_pytest.ini
+      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini
   id: 'Tests'
 
 # compile pipeline
@@ -31,7 +31,7 @@ steps:
   waitFor: ['CompilePipeline']
   id: 'RunPipeline'
 
-timeout: 1800s
+timeout: 2100s
 
 substitutions:
   _SERVICE_ACCOUNT: "vertex-pipelines-sa@${PROJECT_ID}.iam.gserviceaccount.com"
