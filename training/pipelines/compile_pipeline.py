@@ -28,15 +28,15 @@ if __name__ == "__main__":
                         required=True,
                         help="gs:// path to export pipeline including the archived name and extension")
     
-    #parser.add_argument("-pt", '--pipeline-type',
-    #                choices=['training','deploy-model'],
-    #                default='training',
-    #                help='define pipeline type')
+    parser.add_argument("-pn", '--pipeline-name',
+                        dest="pipelinename",
+                    default='pipeline',
+                    help='define pipeline type')
 
     args = parser.parse_args()
     
     
     pipeline_filename='pipeline.json'
 
-    training_pipeline.compile_pipeline(pipeline_filename)
+    training_pipeline.compile_pipeline(pipeline_filename, args.pipelinename)
     upload(args.destination, pipeline_filename)

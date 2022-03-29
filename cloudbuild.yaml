@@ -10,8 +10,8 @@ steps:
 #    - |
 #      pip install poetry \
 #      && poetry install \
-#      && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
-#      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini
+#      && poetry run pytest -m "unit" -s -v -c custom_pytest.ini -n auto --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=70 \
+#      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini -n auto
 #  id: 'Tests'
 
 # compile pipeline
@@ -22,7 +22,7 @@ steps:
       - |
         pip install poetry \
         && poetry install \
-        && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}
+        && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH} -pn ${_PIPELINE_NAME}
   #args: ['pip install poetry | poetry install | poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}']
   #waitFor: ['Tests']
   id: 'CompilePipeline'
