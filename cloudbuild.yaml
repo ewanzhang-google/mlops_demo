@@ -8,7 +8,7 @@ steps:
     - |
       pip install poetry \
       && poetry install \
-      && poetry run pytest -m "unit" -s -v -c custom_pytest.ini -n auto --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=70 \
+      && poetry run pytest -m "unit" -s -v -c custom_pytest.ini -n auto --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=65 \
       && poetry run pytest -m "inte" -s -v -c custom_pytest.ini -n auto
   id: 'Tests'
 
