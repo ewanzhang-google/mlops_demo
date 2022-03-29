@@ -3,7 +3,7 @@ steps:
 # Run unit tests and code coverage
 - name: 'python:3.9'
   entrypoint: 'bash'
-  dir: 'vertex'
+  #dir: 'vertex'
   #args: ['run_tests.sh']
   args:
     - '-c'
