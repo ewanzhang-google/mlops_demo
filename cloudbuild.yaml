@@ -10,9 +10,8 @@ steps:
     - |
       pip3 install poetry \
       && poetry install \
-      && source venv/bin/activate
-      && python -m pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
-      && python -m pytest -m "inte" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=10 -s -v -c custom_pytest.ini
+      && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
+      && poetry run pytest -m "inte" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=10 -s -v -c custom_pytest.ini
   id: 'Tests'
 
 # compile pipeline
