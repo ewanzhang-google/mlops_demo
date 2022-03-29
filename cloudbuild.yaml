@@ -1,7 +1,7 @@
 steps:
 
 # Run unit tests and code coverage
-- name: 'python:3.8'
+- name: 'python:3.9'
   entrypoint: 'bash'
   # dir: 'tests'
   #args: ['run_tests.sh']
