@@ -1,0 +1,100 @@
+id,color,beanOveroasted,blend,organic,Category_Two_Defects,roasted,aromaIntencity,variety,processingMethod,origin,categoryOneDefects,drySeason,pestInfected,climate,farmSize,verified,producer,volume_bags,total_volume,label
+8909-BOLNL,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,false,j.andrade,21,52,Robusta
+7343-EOBEU,Bluish-Green,0,true,false,3,true,Medium,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,23,89,Robusta
+9277-JOOMO,Green,0,false,false,3,true,Medium,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,24,86,Robusta
+2592-SEIFQ,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,24,66,Arabica
+9743-DQKQW,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,25,79,Robusta
+8993-PHFWD,Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,25,58,Arabica
+6542-LWGXJ,Bluish-Green,0,true,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,j.andrade,25,78,Robusta
+5480-HPRRX,Green,1,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,25,77,Arabica
+0323-XWWTN,Bluish-Green,0,false,true,3,true,Medium,Bourbon,semi-washed,Quatemala,false,false,false,cold,small,true,j.andrade,26,121,Robusta
+5156-UMKOW,Green,0,false,true,3,false,High,Mundo Novo,washed,Brazil,false,false,false,cold,large,false,j.andrade,29,90,Robusta
+5960-MVTUK,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,true,false,cold,large,true,montegrande,29,96,Robusta
+3082-VQXNH,Bluish-Green,0,true,false,3,false,High,Mundo Novo,washed,Brazil,false,false,false,cold,large,false,christina dusing,29,94,Robusta
+0975-VOOVL,Green,0,false,false,3,false,High,Mundo Novo,washed,Brazil,false,false,false,cold,large,false,j.andrade,29,98,Robusta
+3538-WZPHD,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Brazil,false,false,false,cold,large,true,montegrande,29,79,Arabica
+4592-IWTJI,Green,0,true,true,3,false,High,Mundo Novo,dry,Mexico,false,false,false,cold,large,false,christina dusing,29,91,Arabica
+9572-WUKSB,Bluish-Green,0,true,false,3,false,High,Mundo Novo,washed,Mexico,false,true,false,cold,large,true,montegrande,29,92,Robusta
+8167-GJLRN,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,true,false,cold,large,false,montegrande,30,82,Robusta
+1078-TDCRN,Green,1,true,false,3,false,High,Mundo Novo,washed,Brazil,false,false,false,cold,large,true,montegrande,30,82,Robusta
+3237-AJGEH,Green,0,true,true,3,false,High,Mundo Novo,washed,Mexico,false,true,false,cold,large,true,j.andrade,31,95,Arabica
+3050-GBUSH,Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,true,cold,large,true,christina dusing,34,113,Robusta
+3815-SLMEF,Green,0,false,false,3,false,High,Mundo Novo,dry,Mexico,false,true,false,cold,large,false,j.andrade,34,139,Arabica
+5759-RCVCB,Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,false,false,true,cold,large,false,christina dusing,35,108,Arabica
+3594-KADLU,Bluish-Green,0,true,false,3,false,High,Mundo Novo,dry,Mexico,false,true,false,cold,large,false,j.andrade,35,101,Robusta
+7384-GHBPI,Bluish-Green,0,true,false,3,false,High,Mundo Novo,washed,Mexico,false,false,false,worm,large,true,montegrande,35,99,Arabica
+2108-XWMPY,Bluish-Green,0,false,false,3,false,High,Mundo Novo,dry,Brazil,false,false,false,cold,large,true,j.andrade,35,106,Arabica
+7890-VYYWG,Bluish-Green,1,true,false,3,false,High,Mundo Novo,washed,Mexico,false,false,true,cold,large,true,j.andrade,36,93,Arabica
+4430-UZIPO,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Brazil,false,true,false,cold,large,true,j.andrade,36,108,Arabica
+9505-SQFSW,Green,0,true,true,3,false,High,Mundo Novo,washed,Brazil,false,false,false,worm,large,false,j.andrade,40,92,Robusta
+6338-AVWCY,Bluish-Green,0,false,false,3,false,High,Mundo Novo,washed,Mexico,true,false,true,cold,large,true,j.andrade,40,130,Arabica
+7273-TEFQD,Bluish-Green,1,false,false,3,false,High,Mundo Novo,washed,Mexico,true,false,false,worm,large,true,montegrande,41,132,Arabica
+6351-SCJKT,Bluish-Green,0,false,false,3,false,High,Mundo Novo,dry,Mexico,true,true,false,cold,large,false,j.andrade,41,107,Robusta
+7587-RZNME,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,true,montegrande,43,123,Arabica
+7963-GQRMY,Green,0,true,true,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,j.andrade,44,134,Arabica
+8660-BUETV,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,j.andrade,44,148,Robusta
+0374-IOEGQ,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,44,122,Robusta
+1589-AGTLK,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,true,montegrande,45,141,Arabica
+7675-OZCZG,Green,1,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,montegrande,45,127,Arabica
+4061-UKJWL,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,j.andrade,45,141,Robusta
+2637-FKFSY,Green,0,true,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,cold,large,true,j.andrade,46,130,Robusta
+8878-HMWBV,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,true,false,false,cold,large,true,montegrande,49,169,Arabica
+6304-IJFSQ,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Brazil,false,false,false,cold,large,true,j.andrade,49,130,Arabica
+5896-NPFWW,Bluish-Green,0,true,true,3,true,Low,Mundo Novo,washed,Mexico,true,false,false,cold,large,true,montegrande,50,168,Arabica
+0929-HYQEW,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,dry,Mexico,false,false,false,cold,large,true,j.andrade,50,160,Robusta
+4026-SKKHW,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,true,false,cold,large,true,j.andrade,50,152,Robusta
+1763-WQFUK,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,true,false,cold,large,true,j.andrade,50,147,Robusta
+9631-XEYKE,Bluish-Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,false,false,cold,large,false,alfredo bojalil,50,137,Robusta
+3329-WDIOK,Green,0,false,false,3,false,High,Mundo Novo,washed,Brazil,false,false,true,worm,large,true,montegrande,50,155,Arabica
+8364-TRMMK,Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,false,false,cold,large,true,j.andrade,50,151,Arabica
+4918-QLLIW,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,true,cold,large,false,christina dusing,53,188,Arabica
+9269-CQOOL,Bluish-Green,0,false,true,3,true,Low,Mundo Novo,washed,Mexico,false,false,true,cold,large,true,christina dusing,54,169,Arabica
+9261-WDCAF,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,worm,large,false,j.andrade,54,189,Robusta
+0988-JRWWP,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,true,cold,large,true,montegrande,54,140,Robusta
+7055-HNEOJ,Bluish-Green,0,true,false,3,true,Low,Mundo Novo,washed,Mexico,true,true,false,cold,large,true,j.andrade,55,154,Robusta
+8963-JLGJT,Bluish-Green,0,false,true,3,true,Low,Mundo Novo,dry,Mexico,true,false,false,cold,large,false,j.andrade,55,157,Robusta
+4484-CGXFK,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,false,worm,large,true,montegrande,55,196,Arabica
+8806-EAGWC,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,false,true,cold,large,false,j.andrade,55,159,Arabica
+3656-TKRVZ,Green,0,false,false,3,true,Low,Mundo Novo,dry,Brazil,false,false,false,cold,large,false,montegrande,55,165,Arabica
+0807-ZABDG,Green,0,false,true,3,true,Low,Mundo Novo,dry,Mexico,false,true,false,cold,large,true,j.andrade,55,154,Arabica
+8824-RWFXJ,Bluish-Green,0,true,true,3,true,Low,Mundo Novo,washed,Brazil,true,false,false,cold,large,true,j.andrade,56,168,Arabica
+7404-JLKQG,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,true,false,true,cold,large,false,montegrande,57,161,Robusta
+0319-QZTCO,Green,0,true,true,3,true,Low,Mundo Novo,washed,Brazil,false,false,true,cold,large,true,christina dusing,58,168,Robusta
+0411-EZJZE,Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,false,true,cold,large,true,montegrande,60,170,Robusta
+3043-TYBNO,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,true,false,worm,large,false,j.andrade,60,196,Robusta
+4398-HSCJH,Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,true,true,cold,large,true,montegrande,63,155,Arabica
+5630-AHZIL,Green,0,false,true,3,true,Low,Mundo Novo,dry,Mexico,false,true,false,worm,large,true,alfredo bojalil,64,177,Robusta
+4957-TREIR,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,dry,Mexico,false,true,true,cold,large,true,christina dusing,64,195,Robusta
+5356-CSVSQ,Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,true,true,cold,large,false,montegrande,64,174,Robusta
+1230-QAJDW,Bluish-Green,0,false,false,3,true,Medium,Mundo Novo,washed,Mexico,false,true,true,cold,large,true,j.andrade,65,209,Robusta
+9576-ANLXO,Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,alfredo bojalil,69,222,Arabica
+0455-XFASS,Green,0,true,true,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,69,200,Robusta
+2988-PLAHS,Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,true,false,true,worm,medium,true,montegrande,69,220,Robusta
+7245-NIIWQ,Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,69,199,Robusta
+7159-FVYPK,Green,0,true,true,3,true,Medium,Mundo Novo,washed,Brazil,true,false,true,cold,large,true,alfredo bojalil,69,235,Robusta
+9048-JVYVF,Bluish-Green,0,false,false,3,true,Low,Mundo Novo,washed,Mexico,false,true,true,worm,large,true,montegrande,69,191,Arabica
+4983-CCWMC,Bluish-Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,j.andrade,69,207,Robusta
+4919-MOAVT,Bluish-Green,0,false,true,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,false,montegrande,69,220,Arabica
+7379-POKDZ,Bluish-Green,0,true,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,70,208,Arabica
+6077-BDPXA,Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,70,194,Robusta
+4029-HPFVY,Bluish-Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,j.andrade,70,220,Robusta
+2055-PDADH,Green,1,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,70,204,Arabica
+0734-OXWBT,Bluish-Green,0,false,true,3,true,Low,Mundo Novo,washed,Mexico,false,true,true,worm,large,false,j.andrade,70,225,Robusta
+6168-WFVVF,Green,1,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,70,235,Arabica
+9633-XQABV,Green,0,false,false,3,true,Low,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,70,229,Robusta
+2710-WYVXG,Green,0,false,false,3,true,Low,Mundo Novo,dry,Brazil,false,true,false,worm,small,false,j.andrade,71,213,Robusta
+4854-CIDCF,Green,1,false,false,3,true,Low,Typica,washed,Mexico,true,false,false,cold,large,false,montegrande,73,196,Robusta
+8617-ENBDS,Bluish-Green,0,false,false,3,true,Low,Typica,washed,Mexico,true,false,false,cold,large,true,christina dusing,73,232,Robusta
+0404-SWRVG,Bluish-Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,74,229,Arabica
+2800-VEQXM,Green,0,false,false,3,true,Low,Typica,washed,Mexico,true,false,false,cold,large,true,j.andrade,74,238,Robusta
+6680-WKXRZ,Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,false,alfredo bojalil,74,215,Arabica
+9306-CPCBC,Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,74,210,Arabica
+4090-KPJIP,Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,montegrande,74,212,Robusta
+6424-ELEYH,Green,0,true,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,christina dusing,74,229,Arabica
+2325-NBPZG,Green,0,false,false,3,true,Low,Typica,dry,Mexico,false,false,false,cold,large,true,montegrande,74,233,Robusta
+7823-JSOAG,Bluish-Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,false,montegrande,74,217,Robusta
+3411-WLRSQ,Green,1,true,false,3,true,Low,Typica,washed,Brazil,false,false,false,cold,large,true,alfredo bojalil,74,239,Robusta
+9850-OWRHQ,Green,0,true,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,christina dusing,74,228,Arabica
+9398-MMQTO,Bluish-Green,0,false,false,3,true,Low,Typica,washed,Brazil,false,false,false,cold,large,false,christina dusing,74,221,Robusta
+5122-CYFXA,Green,0,false,false,3,true,Low,Mundo Novo,washed,Brazil,false,true,true,worm,large,true,montegrande,75,244,Robusta
+2276-YDAVZ,Green,0,false,false,3,true,Medium,Typica,washed,Mexico,false,false,false,cold,large,true,christina dusing,75,270,Arabica

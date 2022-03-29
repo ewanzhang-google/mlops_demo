@@ -1,0 +1,100 @@
+id,color,beanOveroasted,blend,organic,Category_Two_Defects,roasted,aromaIntencity,variety,processingMethod,origin,categoryOneDefects,drySeason,pestInfected,climate,farmSize,verified,producer,volume_bags,total_volume,label
+1597-FZREH,Green,0,false,false,2,true,Low,Mundo Novo,washed,Mexico,true,true,true,worm,large,false,montegrande,76,160,Arabica
+1304-NECVQ,Green,1,false,false,2,true,Medium,Typica,washed,Mexico,true,false,false,cold,large,true,montegrande,78,149,Arabica
+4234-XTNEA,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,79,174,Robusta
+7198-GLXTC,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,false,montegrande,79,143,Arabica
+8642-GVWRF,Green,0,true,false,2,true,Low,Typica,washed,Brazil,true,false,false,cold,large,false,alfredo bojalil,79,165,Arabica
+3420-YJLQT,Green,0,false,false,2,true,Medium,Typica,washed,Brazil,false,false,false,cold,large,false,montegrande,79,151,Robusta
+8943-URTMR,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,j.andrade,79,152,Arabica
+4713-LZDRV,Green,1,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,79,195,Arabica
+1981-INRFU,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,79,164,Arabica
+3422-GALYP,Bluish-Green,0,false,false,2,true,Medium,Typica,washed,Brazil,false,false,false,cold,large,true,montegrande,79,145,Robusta
+5712-PTIWW,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,true,true,false,cold,large,true,montegrande,79,152,Arabica
+9317-WZPGV,Green,1,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,true,alfredo bojalil,79,159,Arabica
+5561-NWEVX,Green,1,true,false,2,true,Medium,Typica,washed,Mexico,true,false,false,cold,large,false,montegrande,79,172,Arabica
+7760-OYPDY,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,80,144,Arabica
+2868-SNELZ,Green,0,false,false,2,true,Medium,Typica,washed,Mexico,true,false,false,cold,large,false,j.andrade,80,155,Arabica
+6923-JHPMP,Green,0,false,false,2,true,Low,Typica,dry,Mexico,true,false,false,cold,large,true,montegrande,80,137,Robusta
+9878-TNQGW,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,80,171,Arabica
+4741-WWJQZ,Green,0,true,false,2,true,Low,Typica,dry,Mexico,false,true,false,cold,large,true,montegrande,80,194,Robusta
+8183-ONMXC,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,false,montegrande,80,159,Arabica
+8086-OVPWV,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,80,181,Arabica
+2737-YNGYW,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,false,worm,large,false,montegrande,80,184,Arabica
+4529-CKBCL,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,80,146,Arabica
+3130-ICDUP,Green,0,false,true,2,true,Medium,Typica,dry,Mexico,false,false,false,cold,large,false,christina dusing,80,188,Robusta
+9689-PTNPG,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,80,144,Arabica
+9050-IKDZA,Green,1,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,cold,large,false,j.andrade,81,162,Robusta
+7314-OXENN,Bluish-Green,0,false,false,2,true,Medium,Typica,washed,Brazil,false,false,false,cold,large,true,montegrande,82,184,Arabica
+6407-UTSLV,Green,1,false,false,2,true,Low,Typica,washed,Brazil,false,false,true,cold,large,true,alfredo bojalil,83,163,Robusta
+2545-EBUPK,Green,1,false,false,2,true,Medium,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,84,186,Robusta
+3489-HHPFY,Green,0,true,false,2,true,Medium,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,84,134,Robusta
+0259-GBZSH,Bluish-Green,0,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,85,181,Arabica
+1143-NMNQJ,Green,0,false,false,2,true,Medium,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,85,169,Arabica
+5277-ZLOOR,Green,1,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,cold,large,true,montegrande,85,187,Arabica
+0220-EBGCE,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,true,false,false,worm,large,true,montegrande,85,167,Arabica
+6275-YDUVO,Green,0,false,false,2,true,Low,Typica,washed,Mexico,true,false,false,worm,large,true,j.andrade,86,178,Arabica
+6474-FVJLC,Bluish-Green,0,false,false,2,true,Medium,Typica,washed,Mexico,false,false,false,worm,large,true,montegrande,86,165,Arabica
+0133-BMFZO,Green,0,false,false,2,true,Low,Typica,dry,Brazil,false,true,false,cold,large,true,montegrande,86,181,Arabica
+3097-NQYSN,Bluish-Green,1,true,false,2,true,Medium,Typica,washed,Mexico,false,false,true,cold,large,true,j.andrade,86,156,Arabica
+5318-IXUZF,Green,0,false,false,2,true,Low,Typica,washed,Brazil,false,false,true,cold,large,true,alfredo bojalil,87,183,Arabica
+4695-WJZUE,Green,1,false,false,2,true,Medium,Typica,washed,Mexico,true,false,false,worm,large,true,montegrande,88,179,Arabica
+5644-PDMZC,Green,1,false,false,2,true,Medium,Typica,washed,Brazil,false,false,false,worm,large,false,montegrande,89,161,Arabica
+2074-GKOWZ,Bluish-Green,0,true,true,2,true,Low,Typica,washed,Mexico,false,false,true,worm,large,true,alfredo bojalil,89,185,Arabica
+2034-GDRCN,Green,0,false,false,2,true,Low,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,90,168,Arabica
+0139-IVFJG,Green,0,true,false,2,true,Low,Typica,dry,Brazil,false,false,true,cold,large,false,montegrande,90,190,Robusta
+3703-VAVCL,Bluish-Green,0,true,true,2,true,Low,Typica,washed,Mexico,true,true,false,worm,large,false,christina dusing,90,190,Arabica
+4137-BTIKL,Bluish-Green,0,false,false,2,true,Medium,Typica,dry,Mexico,false,false,false,worm,large,false,j.andrade,90,174,Robusta
+9546-CQJSU,Green,0,false,false,2,true,Medium,Typica,washed,Mexico,true,false,true,cold,large,true,montegrande,91,193,Arabica
+5091-HFAZW,Green,0,false,false,2,true,Low,Typica,dry,Brazil,false,false,true,cold,large,true,montegrande,91,168,Robusta
+4927-WWOOZ,Bluish-Green,0,true,false,2,true,Medium,Typica,washed,Mexico,true,false,true,cold,large,true,montegrande,91,171,Robusta
+7024-OHCCK,Green,1,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,93,170,Arabica
+4424-TKOPW,Bluish-Green,1,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,93,196,Arabica
+7218-HKQFK,Bluish-Green,0,true,false,2,true,Low,Typica,washed,Mexico,false,true,true,worm,large,true,montegrande,94,167,Arabica
+3006-XIMLN,Green,0,false,true,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,alfredo bojalil,94,193,Arabica
+5349-IECLD,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,true,false,true,worm,large,false,montegrande,94,178,Arabica
+2720-WGKHP,Bluish-Green,1,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,94,181,Arabica
+4929-XIHVW,Bluish-Green,1,true,false,2,true,Low,Typica,washed,Mexico,true,false,true,worm,large,true,christina dusing,95,181,Robusta
+7851-WZEKY,Green,0,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,95,196,Arabica
+5649-ANRML,Bluish-Green,1,false,false,2,true,Low,Typica,washed,Brazil,true,true,false,worm,large,true,christina dusing,95,180,Arabica
+0754-UKWQP,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Mexico,true,false,true,worm,large,true,montegrande,95,197,Arabica
+8413-VONUO,Bluish-Green,0,false,false,2,true,Low,Typica,washed,Brazil,false,false,true,worm,large,false,montegrande,95,167,Arabica
+3158-MOERK,Green,0,false,false,2,true,Medium,Typica,washed,Mexico,false,false,true,worm,large,true,montegrande,96,174,Arabica
+6645-MXQJT,Bluish-Green,0,true,true,2,true,Low,Typica,dry,Mexico,false,false,true,worm,large,false,montegrande,97,184,Robusta
+7379-FNIUJ,Bluish-Green,0,false,false,2,true,Low,Typica,dry,Brazil,false,false,true,worm,large,false,montegrande,100,198,Robusta
+1875-QIVME,Green,0,true,false,2,true,Medium,Typica,washed,Mexico,true,true,true,worm,large,true,montegrande,104,242,Arabica
+3806-YAZOV,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,18,56,Robusta
+6837-BJYDQ,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,false,j.andrade,19,61,Robusta
+0030-FNXPP,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,57,Robusta
+7521-YXVZY,Bluish-Green,0,false,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,58,Robusta
+6184-DYUOB,Green,0,true,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,55,Robusta
+1465-WCZVT,Green,0,true,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,60,Robusta
+1179-INLAT,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,true,j.andrade,19,69,Robusta
+0268-QKIWO,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,montegrande,19,58,Arabica
+1407-DIGZV,Green,0,true,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,small,false,j.andrade,19,52,Robusta
+7785-RDVIG,Green,0,true,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,54,Robusta
+1087-UDSIH,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,59,Arabica
+0137-UDEUO,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,63,Arabica
+4693-VWVBO,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,montegrande,19,61,Robusta
+1449-XQEMT,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,58,Arabica
+7526-IVLYU,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,68,Robusta
+0178-CIIKR,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,58,Robusta
+6776-TLWOI,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,19,64,Arabica
+5066-GFJMM,Green,0,true,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,45,Robusta
+9039-ZVJDC,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,19,53,Robusta
+2393-DIVAI,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,20,61,Robusta
+7764-BDPEE,Bluish-Green,0,false,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,20,60,Robusta
+3195-TQDZX,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,montegrande,20,61,Robusta
+0463-WZZKO,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,christina dusing,20,67,Robusta
+2792-VPPET,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,montegrande,20,76,Robusta
+3744-ZBHON,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,montegrande,20,65,Robusta
+6734-CKRSM,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,20,63,Robusta
+4393-OBCRR,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,false,j.andrade,20,71,Robusta
+4390-KYULV,Bluish-Green,0,true,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,christina dusing,20,51,Arabica
+5808-TOTXO,Green,0,false,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,true,christina dusing,20,57,Robusta
+7808-DVWEP,Bluish-Green,0,true,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,alfredo bojalil,20,49,Robusta
+2621-UDNLU,Green,0,true,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,20,72,Robusta
+3039-MJSLN,Bluish-Green,0,false,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,alfredo bojalil,20,50,Robusta
+6394-HHHZM,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,20,57,Robusta
+3407-QGWLG,Bluish-Green,0,false,true,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,true,j.andrade,20,75,Robusta
+9770-LXDBK,Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,large,false,j.andrade,20,63,Robusta
+8909-BOLNL,Bluish-Green,0,false,false,3,true,Low,Bourbon,semi-washed,Quatemala,false,false,false,cold,medium,false,j.andrade,21,52,Robusta

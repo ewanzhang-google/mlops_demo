@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "vertex-mlops-demo"
+version = "0.1.0"
+description = ""
+authors = ["aniftos <aniftos@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.9"
+kfp = "1.8.11"
+google-cloud-aiplatform = "1.10.0"
+google-cloud-bigquery = "2.32.0"
+google-cloud-pipeline-components = "0.2.0"
+dask = "2021.12.0"
+pandas_profiling = "3.1.0"
+#apache-beam = "2.37.0"
+#tensorflow-data-validation = "1.7.0"
+scikit-learn = "0.24.0"
+pandas = "1.3.5"
+numpy = "1.21.0"
+fsspec = "2021.11.1"
+gcsfs = "2021.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "7.0.0"
+pytest-cov = "3.0.0"
+pytest-env = "0.6.2"
+pytest-mock = "3.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
