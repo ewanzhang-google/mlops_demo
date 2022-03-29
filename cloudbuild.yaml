@@ -15,7 +15,7 @@ steps:
 #  id: 'Tests'
 
 # compile pipeline
-- name: 'python:3.8-slim'
+- name: 'python:3.9-slim'
   entrypoint: 'bash'
   args:
       - '-c'
