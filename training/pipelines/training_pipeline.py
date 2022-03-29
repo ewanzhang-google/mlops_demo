@@ -2,16 +2,8 @@ import os.path
 import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-import kfp.components as comp
-import kfp.v2 as kfp
 import kfp.v2.dsl as dsl
 from kfp.v2 import compiler
-from kfp.v2.dsl import (
-    component,
-    Output,
-    HTML
-)
-
 from google_cloud_pipeline_components import aiplatform as gcc_aip
 
 from training.components.data.bq_export import bq_export_comp

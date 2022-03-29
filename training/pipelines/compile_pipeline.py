@@ -2,7 +2,7 @@ from google.cloud import storage
 import os
 
 from argparse import ArgumentParser
-from training_pipeline import compile_pipeline
+from training.pipelines import training_pipeline
 
 
 
@@ -36,7 +36,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     
-    pipeline_filename='pipeline.json' 
+    pipeline_filename='pipeline.json'
 
-    compile_pipeline(pipeline_filename)
+    training_pipeline.compile_pipeline(pipeline_filename)
     upload(args.destination, pipeline_filename)

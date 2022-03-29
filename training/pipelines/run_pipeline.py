@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 import json
-from training_pipeline import run_pipeline
+from training.pipelines import training_pipeline
 
     
 if __name__ == "__main__":
@@ -14,8 +14,8 @@ if __name__ == "__main__":
                         dest="run_name",
                         default="$SHORT_SHA",
                         help="")
-    
-       
+
+
     parser.add_argument("-pid", "--project_id",
                         dest="project_id",
                         default="$PROJECT_ID",
@@ -52,10 +52,8 @@ if __name__ == "__main__":
 
     
     args = parser.parse_args()
-    
-    
-    print(vars(args))
-    run_pipeline(
+
+    training_pipeline.run_pipeline(
         args.pipeline_name,
         args.run_name,
         args.project_id,
