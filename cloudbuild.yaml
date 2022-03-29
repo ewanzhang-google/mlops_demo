@@ -1,19 +1,19 @@
 steps:
 
 # Run unit tests and code coverage
-- name: 'python:3.9'
-  entrypoint: 'bash'
-  #dir: 'vertex'
-  #args: ['run_tests.sh']
-  args:
-    - '-c'
-    - |
-      ls -la \
-      && pip install poetry \
-      && poetry install \
-      && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
-      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini
-  id: 'Tests'
+#- name: 'python:3.9'
+#  entrypoint: 'bash'
+#  #dir: 'vertex'
+#  #args: ['run_tests.sh']
+#  args:
+#    - '-c'
+#    - |
+#      ls -la \
+#      && pip install poetry \
+#      && poetry install \
+#      && poetry run pytest -m "unit" --cov=training --cov-config=./coverage.ini --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini \
+#      && poetry run pytest -m "inte" -s -v -c custom_pytest.ini
+#  id: 'Tests'
 
 # compile pipeline
 - name: 'python:3.8-slim'
