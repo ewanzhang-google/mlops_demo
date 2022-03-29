@@ -6,7 +6,7 @@ authors = ["aniftos <aniftos@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "~3.9."
+python = "~3.9"
 kfp = "1.8.11"
 google-cloud-aiplatform = "1.10.0"
 google-cloud-bigquery = "2.32.0"
