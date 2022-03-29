@@ -110,7 +110,7 @@
           }
         }
       },
-      "comp-condition-deploy-bt-blessed-model-1": {
+      "comp-condition-deploy-gradient-boosting-model-1": {
         "dag": {
           "tasks": {
             "endpoint-create": {
@@ -237,7 +237,7 @@
                 }
               },
               "taskInfo": {
-                "name": "Deploy BT Model to Endpoint"
+                "name": "Deploy Gradient Boosting Model to Endpoint"
               }
             },
             "model-upload": {
@@ -320,7 +320,7 @@
                 }
               },
               "taskInfo": {
-                "name": "Upload BT Model"
+                "name": "Upload Gradient Boosting Model"
               }
             }
           }
@@ -1454,12 +1454,12 @@
               }
             },
             "taskInfo": {
-              "name": "Train Booster Trees Model"
+              "name": "Train Gradient Boosting Model"
             }
           },
-          "condition-deploy bt blessed model-1": {
+          "condition-deploy Gradient Boosting model-1": {
             "componentRef": {
-              "name": "comp-condition-deploy-bt-blessed-model-1"
+              "name": "comp-condition-deploy-gradient-boosting-model-1"
             },
             "dependentTasks": [
               "blessed-model-comp",
@@ -1491,13 +1491,13 @@
               }
             },
             "taskInfo": {
-              "name": "condition-deploy bt blessed model-1"
+              "name": "condition-deploy Gradient Boosting model-1"
             },
             "triggerPolicy": {
               "condition": "inputs.parameters['pipelineparam--blessed-model-comp-Output'].int_value == 1"
             }
           },
-          "condition-deploy svm blessed model-2": {
+          "condition-deploy SVM blessed model-2": {
             "componentRef": {
               "name": "comp-condition-deploy-svm-blessed-model-2"
             },
@@ -1531,7 +1531,7 @@
               }
             },
             "taskInfo": {
-              "name": "condition-deploy svm blessed model-2"
+              "name": "condition-deploy SVM blessed model-2"
             },
             "triggerPolicy": {
               "condition": "inputs.parameters['pipelineparam--blessed-model-comp-Output'].int_value == 2"

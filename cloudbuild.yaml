@@ -4,14 +4,16 @@ steps:
 - name: 'python:3.8'
   entrypoint: 'bash'
   # dir: 'tests'
-  args: ['run_tests.sh']
-  #args:
-  #  - '-c'
-  #  - |
-  #    ./scripts/install-prerequisites.sh \
-  ##    && composer install -n -q --prefer-dist \
-  #    && php init --overwrite=y \
-  #    && php tests/run
+  #args: ['run_tests.sh']
+  args:
+    - '-c'
+    - |
+      pip install poetry \
+      && poetry install \
+      && python -m pytest -m "unit" --cov=training --cov-config=./coverage.ini \
+      --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini
+      && python -m pytest -m "inte" --cov=training --cov-config=./coverage.ini \
+      --cov-report=term-missing --cov-fail-under=10 -s -v -c custom_pytest.ini
   id: 'Tests'
 
 # compile pipeline

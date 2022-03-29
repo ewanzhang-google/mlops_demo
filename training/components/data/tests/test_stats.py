@@ -15,3 +15,5 @@ def test_bq_export_unit(mocker: MockerFixture):
     json_stats = mocker.Mock(spec=Artifact, path = artifact_path+"/json_artifact.json")
 
     gen_stats_comp.python_func(dataset, html_stats, json_stats)
+
+    #TODO: check that files are generated and that are valid json and html

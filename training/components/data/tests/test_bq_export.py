@@ -83,8 +83,7 @@ def test_pipeline_using_component_e2e():
         export_features_from_bq_search_op = bq_export_comp(
             bq_uri,
             project,
-            location,
-            gcs_uri
+            location
         )
         export_features_from_bq_search_op.set_display_name("export_data_bq")
 
@@ -92,8 +91,8 @@ def test_pipeline_using_component_e2e():
         pipeline_func=pipeline,
         package_path=pipeline_path)
 
-    pl = PipelineJob(display_name= "bq-exp-test",
-                     job_id= "bq-exp-test-"+timestamp,
+    pl = PipelineJob(display_name= "test-bq-export",
+                     job_id= None,
                      template_path= pipeline_path,
                      pipeline_root= pipeline_bucket,
                      project=pipeline_project,

@@ -7,9 +7,8 @@ poetry install
 #pip install -r requirements.txt
 python -m pytest -m "unit" --cov=training --cov-config=./coverage.ini \
 --cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini
-python -m pytest -m "int" --cov=training --cov-config=./coverage.ini \
---cov-report=term-missing --cov-fail-under=60 -s -v -c custom_pytest.ini
-
+python -m pytest -m "inte" --cov=training --cov-config=./coverage.ini \
+--cov-report=term-missing --cov-fail-under=10 -s -v -c custom_pytest.ini
 rtrn_code=$?
 coverage erase
 deactivate
