@@ -19,7 +19,7 @@ steps:
 - name: 'python:3.8-slim'
   entrypoint: 'bash'
   args: ['pip install poetry && poetry install && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}']
-  waitFor: ['Tests']
+#  waitFor: ['Tests']
   id: 'CompilePipeline'
 
 # run pipeline
