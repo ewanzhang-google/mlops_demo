@@ -21,7 +21,7 @@ steps:
       - '-c'
       - |
         pip install poetry \
-        && poetry install \
+        && poetry install --no-dev \
         && poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH} -pn ${_PIPELINE_NAME}
   #args: ['pip install poetry | poetry install | poetry run python -m training.pipelines.compile_pipeline -d ${_PIPELINE_PATH}']
   #waitFor: ['Tests']

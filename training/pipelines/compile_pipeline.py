@@ -38,5 +38,6 @@ if __name__ == "__main__":
     
     pipeline_filename='pipeline.json'
 
-    training_pipeline.compile_pipeline(pipeline_filename, args.pipelinename)
+
+    training_pipeline.compile_pipeline(pipeline_filename, args.pipelinename.replace("_", "-"))
     upload(args.destination, pipeline_filename)
