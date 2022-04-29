@@ -7,7 +7,7 @@ from training.components.data.bq_export import bq_export_comp
 
 # TODO: move into a config file
 project_id = "ewans-demo-project"
-dataset = "vertex_ai"
+dataset = "mlops_demo"
 table = "coffee_beans_data"
 bq_uri="{}.{}.{}".format(project_id, dataset, table)
 
