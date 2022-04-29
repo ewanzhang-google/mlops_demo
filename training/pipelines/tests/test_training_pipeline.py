@@ -4,9 +4,9 @@ import training.pipelines.training_pipeline as pl
 import inspect
 
 # TODO: move into a config file
-project_id = "uki-mlops-dev-demo"
-dataset = "coffee_dataset"
-table = "coffee_beans"
+project_id = "ewans-demo-project"
+dataset = "vertex_ai"
+table = "coffee_beans_data"
 bq_uri="{}.{}.{}".format(project_id, dataset, table)
 
 gcs_uri="gs://{}/dev-tests".format(project_id)
