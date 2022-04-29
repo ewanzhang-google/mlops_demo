@@ -14,7 +14,7 @@ sa = "vertex-pipelines-sa@{}.iam.gserviceaccount.com".format(project_id)
 pipeline_project = project_id
 pipeline_name = "test-pipeline-coffee"
 pipeline_bucket = "gs://{}/test-pipeline".format(project_id)
-location = 'europe-west4'
+location = 'us-central1'
 pipeline_params = {'project_id': project_id,
                   "bq_uri":bq_uri,
                    "label":"Label",
