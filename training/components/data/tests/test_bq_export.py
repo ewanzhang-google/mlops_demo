@@ -6,8 +6,8 @@ from unittest.mock import patch
 from training.components.data.bq_export import bq_export_comp
 
 # TODO: move into a config file
-project_id = "uki-mlops-dev-demo"
-dataset = "coffee"
+project_id = "ewans-demo-project"
+dataset = "vertex_ai"
 table = "coffee_beans_data"
 bq_uri="{}.{}.{}".format(project_id, dataset, table)
 
