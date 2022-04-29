@@ -14,7 +14,7 @@ bq_uri="{}.{}.{}".format(project_id, dataset, table)
 gcs_uri="gs://{}/dev-tests".format(project_id)
 sa = "vertex-pipeline-sa@{}.iam.gserviceaccount.com".format(project_id)
 pipeline_project = project_id
-pipeline_bucket = "gs://mlops_template/test-pipeline"
+pipeline_bucket = "gs://{}/test-pipeline".format(project_id)
 pipeline_location = 'us-central1'
 
 """
@@ -53,7 +53,7 @@ def test_bq_export_int(mocker: MockerFixture):
     bq_export_comp.python_func(
         bq_uri,
         project=pipeline_project,
-        location='US',
+        location='us-central1',
         exported_dataset=dataset)
 
 
@@ -102,7 +102,7 @@ def test_pipeline_using_component_e2e():
                      parameter_values={
                          'bq_uri': bq_uri,
                          'project': pipeline_project,
-                         'location': 'US',
+                         'location': 'us-central1',
                          'gcs_uri': gcs_uri})
 
     print(pl.run(sync=True, service_account=sa) )
