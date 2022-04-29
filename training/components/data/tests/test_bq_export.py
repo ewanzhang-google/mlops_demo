@@ -15,7 +15,7 @@ gcs_uri="gs://{}/dev-tests".format(project_id)
 sa = "vertex-pipelines-sa@{}.iam.gserviceaccount.com".format(project_id)
 pipeline_project = project_id
 pipeline_bucket = "gs://{}/test-pipeline".format(project_id)
-pipeline_location = 'us-central-1'
+pipeline_location = 'us-central1'
 
 """
 @pytest.fixture
