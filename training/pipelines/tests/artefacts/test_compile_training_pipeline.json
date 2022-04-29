@@ -306,7 +306,7 @@
                   "serving_container_image_uri": {
                     "runtimeValue": {
                       "constantValue": {
-                        "stringValue": "demo-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest"
+                        "stringValue": "us-central-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest"
                       }
                     }
                   },
@@ -545,7 +545,7 @@
                   "serving_container_image_uri": {
                     "runtimeValue": {
                       "constantValue": {
-                        "stringValue": "demo-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest"
+                        "stringValue": "us-central-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest"
                       }
                     }
                   },
