@@ -10,7 +10,7 @@ table = "coffee_beans_data"
 bq_uri="{}.{}.{}".format(project_id, dataset, table)
 
 gcs_uri="gs://{}/dev-tests".format(project_id)
-sa = "vertex-pipelines-sa@{}.iam.gserviceaccount.com".format(project_id)
+sa = "vertex-pipeline-sa@{}.iam.gserviceaccount.com".format(project_id)
 pipeline_project = project_id
 pipeline_name = "test-pipeline-coffee"
 pipeline_bucket = "gs://{}/test-pipeline".format(project_id)
