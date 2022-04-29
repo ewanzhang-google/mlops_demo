@@ -35,7 +35,7 @@ steps:
 timeout: 2100s
 
 substitutions:
-  _SERVICE_ACCOUNT: "vertex-pipelines-sa@${PROJECT_ID}.iam.gserviceaccount.com"
+  _SERVICE_ACCOUNT: "vertex-pipeline-sa@${PROJECT_ID}.iam.gserviceaccount.com"
   _LOCATION: us-central1
   _PIPELINE_NAME: ${REPO_NAME}
   _PIPELINE_RUN_NAME: build-${SHORT_SHA}
