@@ -11,7 +11,7 @@ dataset = "mlops_demo"
 table = "coffee_beans_data"
 bq_uri="{}.{}.{}".format(project_id, dataset, table)
 
-gcs_uri="gs://{}/dev-tests".format(project_id)
+gcs_uri="gs://mlops_template/dev-tests"
 sa = "vertex-pipeline-sa@{}.iam.gserviceaccount.com".format(project_id)
 pipeline_project = project_id
 pipeline_bucket = "gs://mlops_template/test-pipeline"
