@@ -36,7 +36,7 @@ def compile_pipeline(pipeline_filename, pipeline_name):
         #        project_id='datauki-demo-airline',
         #       dataset_id='propensity_model',
         #        table_id='propensity_airline_data_exp',
-        #        dataset_location='europe-west4',
+        #        dataset_location='us-central1',
         #        job_config='')
 
 
