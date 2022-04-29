@@ -30,5 +30,5 @@ def trigger(event, context):
         location = LOCATION,
         parameter_values = {"project_id": "datauki-demo-airline", "bq_uri": "{}".format(BQ_DATA_URI), "assets_prefix": "prop-cf", "location": LOCATION })
 
-    pl.run(sync=False, service_account="vertex-pipelines-sa@{}.iam.gserviceaccount.com".format(PROJECT_ID))
+    pl.run(sync=False, service_account="vertex-pipeline-sa@{}.iam.gserviceaccount.com".format(PROJECT_ID))
    
