@@ -95,7 +95,7 @@ def compile_pipeline(pipeline_filename, pipeline_name):
                 display_name=assets_prefix,
                 location=location,
                 artifact_uri=bt_op.outputs["path"],
-                serving_container_image_uri='europe-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest')\
+                serving_container_image_uri='demo-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest')\
                 .set_display_name('Upload Gradient Boosting Model')\
                 .after(bt_op)
 
@@ -122,7 +122,7 @@ def compile_pipeline(pipeline_filename, pipeline_name):
                 project=project_id,
                 display_name=assets_prefix,
                 artifact_uri=svm_op.outputs["path"],
-                serving_container_image_uri='europe-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest')\
+                serving_container_image_uri='demo-docker.pkg.dev/vertex-ai/prediction/sklearn-cpu.0-24:latest')\
                 .set_display_name('Upload SVM Model')
 
             ### Create endpoint
