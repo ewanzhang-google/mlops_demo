@@ -105,4 +105,4 @@ def test_pipeline_using_component_e2e():
                          'location': 'us-central1',
                          'gcs_uri': gcs_uri})
 
-    print(pl.run(sync=True, service_account=sa) )
+    print(pl.run(sync=True, service_account=sa))
