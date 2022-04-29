@@ -16,7 +16,7 @@ def trigger(event, context):
     BUCKET = "_BUCKET_NAME_HERE_"
     PROJECT_ID = "_PROJECT_ID_HERE_"
     BQ_DATA_URI = "PROJECT.DATASET.TABLE"
-    LOCATION = "europe-west4"
+    LOCATION = "us-central1"
     
     #pubsub_message = base64.b64decode(event['data']).decode('utf-8')
     #print(pubsub_message)
