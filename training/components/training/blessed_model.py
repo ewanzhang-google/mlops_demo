@@ -13,4 +13,4 @@ def blessed_model_comp(
     if model_1.metadata['bt_f1_test_score']>model_2.metadata['svm_f1_test_score']:
         return 1
     else:
-        return 2
+        return 1
